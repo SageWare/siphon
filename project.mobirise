@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Siphon Records",
-    "currentPage": "licensing.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -62,12 +62,13 @@
     "favicon": "@PROJECT_PATH@/assets/images/siphon-records-logo-black.png",
     "noImageResize": null,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "https://siphonrecords.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "imageResize": false
+    "imageResize": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
