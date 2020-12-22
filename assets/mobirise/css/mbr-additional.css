@@ -631,6 +631,108 @@ a {
 .cid-rLDwTOeBUg H1 {
   text-align: center;
 }
+.cid-sjQ5Nk4nIP {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background-color: #000000;
+}
+.cid-sjQ5Nk4nIP .card-box {
+  z-index: 10;
+  position: relative;
+}
+.cid-sjQ5Nk4nIP .container-fluid {
+  padding: 0;
+}
+.cid-sjQ5Nk4nIP h5 {
+  margin: 0;
+}
+.cid-sjQ5Nk4nIP h3 {
+  width: fit-content;
+  display: inline-block;
+  position: relative;
+}
+.cid-sjQ5Nk4nIP h3:before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  top: -120px;
+  bottom: 0;
+  width: 1px;
+  height: 100px;
+  background: currentColor;
+}
+.cid-sjQ5Nk4nIP .card {
+  margin: auto;
+  min-height: 350px;
+  perspective: 800px;
+  cursor: pointer;
+}
+.cid-sjQ5Nk4nIP .card:hover {
+  z-index: 99;
+}
+.cid-sjQ5Nk4nIP .card-wrapper {
+  background-position: center;
+  padding: 1rem 1rem;
+  background-size: cover;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform-origin: top;
+  position: relative;
+  overflow: hidden;
+}
+.cid-sjQ5Nk4nIP .card-wrapper:hover {
+  transform: rotateX(20deg);
+}
+.cid-sjQ5Nk4nIP .card-wrapper:hover:before {
+  transform: translateY(-10%);
+  opacity: 1;
+}
+.cid-sjQ5Nk4nIP .card-wrapper:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(190deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 25%, 0 75%);
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s;
+  transform: translateY(-100%);
+}
+.cid-sjQ5Nk4nIP .card1 {
+  background-image: url("../../../assets/images/album-cover-1500x1500.jpg");
+  z-index: 4;
+  transform: rotateY(15deg);
+}
+.cid-sjQ5Nk4nIP .card2 {
+  background-image: url("../../../assets/images/album-cover-800x800-800x800.jpg");
+  z-index: 3;
+}
+.cid-sjQ5Nk4nIP .card3 {
+  background-image: url("../../../assets/images/album-cover-2-1500x1500.jpg");
+  z-index: 2;
+  transform: rotateY(-15deg);
+}
+.cid-sjQ5Nk4nIP h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.cid-sjQ5Nk4nIP .btn {
+  margin: 0!important;
+  padding: 1rem 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sjQ5Nk4nIP .card-box {
+    text-align: center;
+  }
+}
+.cid-sjQ5Nk4nIP .mbr-text {
+  color: #cccccc;
+}
+.cid-sjQ5Nk4nIP .card-date {
+  color: #ffffff;
+}
 .cid-seSaz73H1t .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
