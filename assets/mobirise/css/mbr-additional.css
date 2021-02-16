@@ -638,7 +638,7 @@ a {
   background-color: #000000;
 }
 .cid-sjQ5Nk4nIP .card-box {
-  z-index: 10;
+  z-index: 15;
   position: relative;
 }
 .cid-sjQ5Nk4nIP .container-fluid {
@@ -664,7 +664,7 @@ a {
 }
 .cid-sjQ5Nk4nIP .card {
   margin: auto;
-  min-height: 350px;
+  min-height: 400px;
   perspective: 800px;
   cursor: pointer;
 }
@@ -702,12 +702,12 @@ a {
   transform: translateY(-100%);
 }
 .cid-sjQ5Nk4nIP .card1 {
-  background-image: url("../../../assets/images/album-cover-1500x1500.jpg");
+  background-image: url("../../../assets/images/the-marches-of-war-front-cd-cover-1-800x800.jpg");
   z-index: 4;
   transform: rotateY(15deg);
 }
 .cid-sjQ5Nk4nIP .card2 {
-  background-image: url("../../../assets/images/album-cover-800x800-800x800.jpg");
+  background-image: url("../../../assets/images/album-cover-3-1500x1500-800x800.jpg");
   z-index: 3;
 }
 .cid-sjQ5Nk4nIP .card3 {
@@ -732,7 +732,7 @@ a {
   color: #cccccc;
 }
 .cid-sjQ5Nk4nIP .card-date {
-  color: #ffffff;
+  color: #ff0000;
 }
 .cid-seSaz73H1t .dropdown-item:before {
   font-family: MobiriseIcons !important;
@@ -1602,7 +1602,7 @@ a {
 }
 .cid-sjGOT3NnAa {
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 105px;
   background: #ffffff;
 }
 .cid-sjGOT3NnAa .mbr-section-title {
@@ -3570,7 +3570,7 @@ a {
 }
 .cid-sf2yMUf9Rn {
   padding-top: 30px;
-  padding-bottom: 75px;
+  padding-bottom: 135px;
   position: relative;
   background-color: #ffffff;
 }
