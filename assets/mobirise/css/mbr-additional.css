@@ -63,7 +63,7 @@ body {
   }
 }
 @media (max-width: 992px) {
-  .display-4 {
+  .display-4:not(.nav-link) {
     font-size: 0.66rem;
   }
 }
@@ -702,7 +702,7 @@ a {
   transform: translateY(-100%);
 }
 .cid-sjQ5Nk4nIP .card1 {
-  background-image: url("../../../assets/images/the-marches-of-war-front-cd-cover-1-800x800.jpg");
+  background-image: url("../../../assets/images/album-cover-1000x1000.jpg");
   z-index: 4;
   transform: rotateY(15deg);
 }
